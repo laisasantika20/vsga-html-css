@@ -3,9 +3,9 @@ body {
   background-color: whitesmoke;
 }
 .container {
-  width: 1000px;
+  width: 1050px;
   height: auto;
-  background-color: rgb(215, 221, 250);
+  background-color: whitesmoke;
   margin: auto;
 }
 .logo {
@@ -16,4 +16,50 @@ body {
 }
 .clearfix {
   clear: both;
+}
+.main-menu {
+  background-color: rgb(34, 145, 145);
+}
+.main-menu > ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+.main-menu > ul > li {
+  display: inline-block;
+}
+.main-menu > ul > li > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: small;
+}
+.main-menu > ul > li > a:hover {
+  background-color: rgb(245, 174, 41);
+  color: black;
+}
+.drop {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  display: none;
+}
+.drop > li > a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 15px;
+  font-family: sans-serif;
+  font-size: small;
+  background-color: black;
+}
+.drop > li > a:hover {
+  color: black;
+  background-color: rgb(245, 174, 41);
+}
+.main-menu > ul > li:hover .drop {
+  display: block;
 }
