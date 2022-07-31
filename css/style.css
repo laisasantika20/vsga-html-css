@@ -1,0 +1,19 @@
+body {
+  margin: auto;
+  background-color: whitesmoke;
+}
+.container {
+  width: 1000px;
+  height: auto;
+  background-color: rgb(215, 221, 250);
+  margin: auto;
+}
+.logo {
+  float: left;
+}
+.search {
+  float: right;
+}
+.clearfix {
+  clear: both;
+}
